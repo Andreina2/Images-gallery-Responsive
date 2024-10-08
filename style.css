@@ -1,0 +1,44 @@
+
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box
+} 
+
+
+body{ 
+    background-color: violet;
+    color: white
+} 
+
+h1 { 
+    font-family: sans-serif;
+    text-align: center;
+    font-size:40px;
+
+} 
+
+img  { 
+    border-radius: 8px;
+    width: 100%; /* tamaño a las imágenes */
+    height: auto;
+     
+} 
+
+.container { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap:32px
+
+
+} 
+
+
+
+
+
+
+
+
+
+
